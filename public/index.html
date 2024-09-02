@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Message</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sign message using elliptic key pair</h1>
+        <form id="sign-form" class="sign-form">
+            <label for="message">Enter your message:</label>
+            <input type="text" id="message" name="message" required>
+            <button type="submit">Sign Message</button>
+        </form>
+        <div id="signature-result" class="signature-result"></div>
+    </div>
+    <script src="/js/script.js"></script>
+</body>
+</html>
